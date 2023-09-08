@@ -1,0 +1,151 @@
+
+
+
+
+.main{
+  max-width: 1200px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  
+    max-width: 100%;
+    vertical-align:middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  margin-top: 2rem;
+
+  
+}
+
+.nav-links{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+
+
+.cards_item {
+    display: flex;
+   
+    padding: 1rem;
+   
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+   
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+   
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  
+  display: flex;
+
+  flex-direction: column;
+ 
+  
+  overflow: hidden;
+ 
+}
+
+.card_content {
+  padding: 2rem;
+
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+ 
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  overflow: hidden;
+  font-weight: 400;
+  
+}
+
+
+.iconbtnn{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 2rem;
+     color: white;
+}
+
+.iconbtnn>button{
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.inputbox{
+    
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+  
+    
+}
+.inputbox >input{
+    width: 60%;
+    height: 35px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 6px;
+}
