@@ -1,11 +1,25 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./Navbar.css";
+import { getAuth, signOut } from "firebase/auth";
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
+  const usenavigate=useNavigate()
 
   const handleClick = () => setClick(!click);
+
+  const handlelogout=()=>{
+
+    const auth = getAuth();
+      signOut(auth).then(() => {
+        usenavigate("/")
+      }).catch((error) => {
+        // An error happened.
+      });
+
+  }
 
   return (
     <>
@@ -54,7 +68,22 @@ function Navbar() {
               </NavLink>
             </li>
 
+            <li className="nav-item">
+              <NavLink
             
+         
+                activeClassName="active"
+                className="nav-links"
+                onClick={handlelogout}
+           
+               
+               
+              >
+               Logout
+              </NavLink>
+            </li>
+
+
 
 
           </ul>
