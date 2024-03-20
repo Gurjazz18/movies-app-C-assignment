@@ -1,0 +1,49 @@
+Wrong text is displayed after searching
+filter issue in pulse-master when changing the tab
+Provide option to download graph as image
+Create task popup shows wrong data in boilers
+Failures type update in toggle is incorrect
+Red/Green indication for revenue
+Show unit in all column (kCal)
+Reliability benefits testing
+Cost per Kcal should post into kairos 
+Sort option for Incidents/deviations
+Collaborator div css issue
+PM and incidents value is not displayed in rotary assets
+Feedback modal is not displayed for task completed from task listing
+Dropdown for create task not proper in pulse boilers
+Discrepancy in sentence case of headers
+issue in recording benefits
+On clicking 'rotary source' it doesn't scroll to the same rotary asset
+Impacted assets of rotary is not reflected in pulse failure 
+Edit confirmation message for deleting the failure
+Time stamp is different for the failure reported from rotary assets
+On editing the report added, api is returning 500 
+After adding failure report, close the popup window
+Update / delete failures should change the stats
+MQTT publish on creation of failure report
+Use same Failure component in rotary
+Edit form for failures
+On submitting report failure, update boiler stats in boiler asset api
+Asset selection option for report failure
+Add startup time option in report failure
+Auto close for overlay in Boiler dashboard 
+Change Gantt chart time to one week
+Tasks Feedback View
+Lazy loading components in boiler
+Opening Rotary from task 'source' link does not open the asset
+When redirecting to login from edgelive site, redirect user to following url
+Count faulty only when the risk is higher than max in range
+Insight alignment fix in Boiler dashboard
+Show pointer on calculator in boiler dashboard
+Group incident data with dataTagId
+Integrating axios interceptor in Boiler overview
+Remove duplicate incidents from boilers
+Show the selected date if selected in calendar
+Show loader for Report failure and sootblowing page in boiler
+Show loader only for boiler-assets api
+Min/max heights based on data availability
+Positioning report failure dialog box
+Rotary asset create task css issues
+Rotary crashes when url opened from tasks page 
+On clicking anywhere in the row, open details
